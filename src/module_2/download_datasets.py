@@ -6,12 +6,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 
-import os
-import boto3
-from typing import Optional
-from dotenv import load_dotenv
-from pathlib import Path
-from urllib.parse import urlparse
+
 
 
 def download_s3_from_uri(
